@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 10px;
-    width: 100%;
+    width: 100% !important;
   }
   #home img {
     width: 50%;
@@ -37,7 +37,7 @@
   }
   .write {
     text-align: center;
-    width: 90%;
+    width: 90% !important;
   }
   .write h3 {
     font-size: 1rem;
