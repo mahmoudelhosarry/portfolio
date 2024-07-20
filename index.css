@@ -31,6 +31,8 @@
   }
   #home img {
     width: 50%;
+    height: 10rem;
+    margin-top: 50px;
   }
   .write {
     text-align: center;
@@ -69,16 +71,19 @@
   .amazing p {
     width: 100%;
     margin: auto;
+    text-align: center;
+    line-height: 20px;
   }
   .hoda {
-    margin-top: 200px;
+    margin-top: 50px;
   }
   .about-me {
     width: 100%;
     height: 100vh;
   }
   #ah {
-    margin: auto;
+    margin: 20px;
+    padding: 15px;
     display: flex;
     justify-content: center;
   }
