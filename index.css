@@ -6,9 +6,11 @@
 @media (max-width: 970px) {
   #home {
     width: 100%;
+    height: 100vh;
   }
   #about {
     width: 100%;
+    height: 100vh;
   }
   .navbar {
     display: flex;
