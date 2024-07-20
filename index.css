@@ -27,7 +27,7 @@
   .me {
     display: flex;
     flex-direction: column-reverse;
-    gap: 30px;
+    gap: 10px;
   }
   #home img {
     width: 50%;
