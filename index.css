@@ -3,7 +3,48 @@
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-@media (min-width: 0px) and (max-width: 991px) {
+.hodaa {
+  animation-name: motion;
+  animation-duration: 1s;
+}
+@keyframes motion {
+  0% {
+    transform: translatex(110%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.navbar,
+.me {
+  animation-name: mahmoud;
+  animation-duration: 1s;
+}
+@keyframes mahmoud {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.hoda {
+  animation-name: motionn;
+  animation-duration: 1s;
+}
+@keyframes motionn {
+  0% {
+    transform: translatex(-200px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.amazing {
+  animation-name: motion;
+  animation-duration: 1s;
+}
+@media (min-width: 0px) and (max-width: 540px) {
   .start {
     width: 100%;
   }
@@ -89,6 +130,99 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+}
+@media (min-width: 541px) and (max-width: 991px) {
+  .start {
+    width: 100%;
+  }
+  #home {
+    width: 100%;
+    height: 100vh;
+  }
+  #about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+  }
+  .me {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    width: 100% !important;
+  }
+  #home img {
+    width: 50%;
+    height: 10rem;
+    margin-top: 50px;
+  }
+  .write {
+    text-align: center;
+    width: 90% !important;
+  }
+  .write h3 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .write h1 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .write p {
+    font-size: 0.75rem;
+    line-height: 25px;
+  }
+  .amazing {
+    margin-top: 300;
+    width: 100% !important;
+    height: 100%;
+    margin: 30px;
+  }
+  .amazing h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+  .amazing h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .amazing p {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+  }
+  .hoda {
+    margin-top: 50px;
+    width: 40% !important;
+  }
+  .about-me {
+    width: 100%;
+    height: 100vh;
+  }
+  #ah {
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .hodaa {
+    width: 50%;
+    margin: 50px;
+    height: 0% !important;
   }
 }
 
